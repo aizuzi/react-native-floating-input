@@ -4,7 +4,9 @@
 ## Getting started
 
 `$ npm install react-native-floating-input --save`
+
 or
+
 `$ yarn add react-native-floating-input`
 
 
@@ -15,6 +17,9 @@ or
 ## Expo Snack Playground
 
 https://snack.expo.io/@zuzi/react-native-floating-input
+
+## Preview
+![Input](./screen/floatinput.gif)
 
 ## Usage
 ```javascript
