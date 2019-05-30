@@ -6,20 +6,27 @@ import {
   Platform,
   StatusBar,
   View,
-  TextInput, Button
+  TextInput, Button, ScrollView
 } from 'react-native'
 import { FloatInputView } from 'react-native-floating-input'
 
 export default class HelloWorldApp extends Component {
   render() {
     return (
+      <View style={{ flex: 1,backgroundColor:'#e0e0e0' }}>
+        <View
+          style={{ height: 50, backgroundColor: "white", alignItems: 'center', justifyContent: 'center' }}>
+          <Text>Example</Text>
+        </View>
+        <ScrollView >
+          <Text>Hello, world!</Text>
+          <Text>Hello, world!</Text>
+          <Text>Hello, world!</Text>
 
-      <View style={{ flex: 1 }}>
-        <Text>Hello, world!</Text>
-
+        </ScrollView>
         <FloatInputView alwaysVisible={true}
-          bottomOffset={50}
-          isAndroidAdjustResize={false}>
+          bottomOffset={0}
+          isAndroidAdjustResize={true}>
           <View style={styles.textInputView}>
             <TextInput
               underlineColorAndroid="transparent"
@@ -47,13 +54,11 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     borderWidth: 1,
     borderRadius: 10,
-    borderColor: '#CCC',
-    padding: 10,
+    height: 44,
+    borderColor: '#e0e0e0',
+    paddingStart: 10,
     fontSize: 16,
     marginRight: 10,
-    textAlignVertical: 'top'
+    textAlignVertical: 'center'
   },
 });
-
-AppRegistry.registerComponent('AnswerDetailList', () => HelloWorldApp);
-AppRegistry.registerComponent('RecommendList', () => HelloWorldApp);
