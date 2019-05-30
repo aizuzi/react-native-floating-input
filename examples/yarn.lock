@@ -4573,10 +4573,10 @@ react-native-drawer-layout@1.3.2:
   dependencies:
     react-native-dismiss-keyboard "1.0.0"
 
-react-native-floating-input@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/react-native-floating-input/-/react-native-floating-input-0.0.1.tgz#68cf3de98edd6e8735caaefadb7f1b9a56b52e76"
-  integrity sha512-lAJqId6z1EJR5v/GeVwEBA8Tr3X64rSzH0c+oEB933s77eha+a+cXKHWnFXh0ROJwPJc3nqBsbSSA5qYKUffDQ==
+react-native-floating-input@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/react-native-floating-input/-/react-native-floating-input-1.0.0.tgz#a578fbaca8cf2ce960fb843c0b2bf299bc60aca7"
+  integrity sha512-Qsd+LHXm4XvwzirZ+pGTYIdLA8oJMcjJmClc1N5hsA9/enAH1sAF6EjQ7g07PteTT6RGa9qlmgS3IdeMJiotsA==
 
 react-native-gesture-handler@1.0.6:
   version "1.0.6"

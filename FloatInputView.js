@@ -35,7 +35,7 @@ const SCREEN_WIDTH = Dimensions.get('window').width;
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 const isSafeAreaDevice = Platform.OS === 'ios' && (SCREEN_HEIGHT > 800 || SCREEN_WIDTH > 800)
 
-export class FloatInputView extends Component {
+class FloatInputView extends Component {
   constructor(props) {
     super(props);
 
@@ -129,8 +129,8 @@ export class FloatInputView extends Component {
         style,
         {
           opacity: (keyboardVisible || alwaysVisible ? 1 : 0),
-          bottom: keyboardHeight == 0 ? keyboardHeight + (isSafeAreaDevice ? 20 : 0) : keyboardHeight - bottomOffset - (isSafeAreaDevice ? 20 : 0),
-          height: floatViewHeight + bottomOffset + (isSafeAreaDevice ? (!keyboardVisible ? 20 : 0) : 0)
+          bottom: keyboardHeight + bottomOffset,
+          height: floatViewHeight + bottomOffset 
         }
       ]}>
         <View onLayout={this.onChildrenLayout}>

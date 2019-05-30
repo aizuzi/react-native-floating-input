@@ -17,7 +17,7 @@
     "react-art": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-native": "0.59.2",
-    "react-native-floating-input": "^0.0.1",
+    "react-native-floating-input": "^1.0.0",
     "react-navigation": "^1.5.0"
   }
 }

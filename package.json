@@ -1,8 +1,8 @@
 
 {
   "name": "react-native-floating-input",
-  "version": "0.0.1",
-  "description": "a layout floating on a soft keyboard",
+  "version": "1.0.0",
+  "description": "a layout floating on a soft keyboard,support for Android and IOS ",
   "main": "index.js",
   "scripts": {
   },
