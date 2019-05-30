@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from './node_modules/react';
 import {
   AppRegistry,
   StyleSheet,
@@ -8,7 +8,7 @@ import {
   View,
   TextInput, Button
 } from 'react-native'
-import { FloatInputView } from './FloatInputView'
+import { FloatInputView } from 'react-native-floating-input'
 
 export default class HelloWorldApp extends Component {
   render() {

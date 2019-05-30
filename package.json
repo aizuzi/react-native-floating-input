@@ -1,18 +1,32 @@
 
 {
   "name": "react-native-floating-input",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "a layout floating on a soft keyboard",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": {
+    "name": "zuzi",
+    "email": "liyi11yi@163.com"
+  },
+  "homepage": "https://github.com/aizuzi/react-native-floating-input",
   "keywords": [
-    "react-native"
+    "react",
+    "react-native",
+    "keyboard",
+    "inputview",
+    "react-component"
   ],
-  "author": "",
-  "license": "",
+  "tags": [
+    "react",
+    "react-native",
+    "keyboard",
+    "inputview",
+    "react-component"
+  ],
+  "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.59.2"
   }
 }

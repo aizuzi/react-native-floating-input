@@ -1,4 +1,4 @@
-import FloatInputView from './examples/FloatInputView';
+import FloatInputView from './FloatInputView';
 
 export {
     FloatInputView

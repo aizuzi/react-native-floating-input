@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React, { Component } from './node_modules/react';
+import PropTypes from './node_modules/prop-types';
 
 import {
   View,
@@ -35,7 +35,7 @@ const SCREEN_WIDTH = Dimensions.get('window').width;
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 const isSafeAreaDevice = Platform.OS === 'ios' && (SCREEN_HEIGHT > 800 || SCREEN_WIDTH > 800)
 
-export class FloatInputView extends Component {
+class FloatInputView extends Component {
   constructor(props) {
     super(props);
 
